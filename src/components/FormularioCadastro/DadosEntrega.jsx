@@ -3,7 +3,7 @@ import { TextField, Button } from "@material-ui/core";
 
 function DadosEntrega() {
   return (
-    <>
+    <form>
       <TextField
         id="cep"
         label="CEP"
@@ -44,7 +44,7 @@ function DadosEntrega() {
       <Button type="submit" variant="contained" color="primary" fullWidth>
         Finalizar Cadastro
       </Button>
-    </>
+    </form>
   );
 }
 
